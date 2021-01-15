@@ -1,0 +1,18 @@
+ # from PyPDF2 import PdfFileReader, PdfFileWriter
+ 
+ # count = 0
+    # output_filename = ""
+    # pdf = PdfFileReader(source)
+    
+    # for page in range(pdf.getNumPages()):
+    #     new_pdf = PdfFileWriter()
+    #     new_pdf.addPage(pdf.getPage(page))
+
+    #     output_filename = 'Doc_page_{}.pdf'.format(page + 1)
+    #     path_to_file = pjoin(destination, output_filename)
+        
+    #     with open(path_to_file, 'wb') as out:
+    #         new_pdf.write(out)
+    #     count += 1
+
+    # return count
