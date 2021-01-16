@@ -22,7 +22,7 @@ def run(option, source, dest):
 
 # Main Window
 mainWindow = tk.Tk()
-mainWindow.title('PDF Guru')
+mainWindow.title('pdfMods')
 mainWindow.geometry('700x300')
 mainWindow.configure(background='#fff')
 
